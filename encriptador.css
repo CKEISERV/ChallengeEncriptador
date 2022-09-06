@@ -1,0 +1,42 @@
+body{
+
+    background-color: #E5E5E5;;
+}
+
+header{
+    display: inline;
+}
+
+h1{
+    text-align: center;
+    color: #0A3871;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: arial;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+h2{
+
+    text-align: center;
+    color: #0A3871;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0.33px;
+}
+
+.alura{
+
+    height: 20px;
+    border: 5px;
+}
+
+.cesar{
+    height: 50px;
+    border: 5px;  
+}

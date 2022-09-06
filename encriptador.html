@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Encriptador</title>
+    <link rel="stylesheet" href="encriptador.css">
+    
 </head>
 <body>
+    
     <header>
-        <h1>Encriptador By Cesar Villamizar</h1>
-        <img src="./Imagenes/Logo.png" alt="Logo de Alura">
+        <h1>  <img src="./Imagenes/Logo.png" alt="Logo de Alura" class="alura"> Sprint 01-Encriptador-grupo 3<img src="./Imagenes/cv.png" alt="Iniciales" class="cesar"></h1>
+        <h2>Cesar Villamizar</h2>
+       
+     
     </header>
+    <main>
+        <div>
+            <label for="campo-escritura">Codigo secreto</label>
+            <input class="ingresar-texto" type="text" id="campo-escritura" required placeholder="Ingrese texto aquí">
+        </div>
 
-    <div>
-        <label for="campo-escritura">Codigo secreto</label>
-        <input type="text" id="campo-escritura" required placeholder="Ingrese texto aquí">
-    </div>
-
-    <div>
-        <input type="text" placeholder="Ningun mensaje fue encontrado">
-        <input type="image" src="./Imagenes/Muñeco.png" >
-    </div>
+        <div>
+            <input class="mostrar-texto" type="text" placeholder="Ningun mensaje fue encontrado">
+            <button class="copiar">copiar</button>
+        
+        </div>
+    </main>
 
     <footer>
-        <p> &#9888; solo letras minusculas y sin acentos</p>
-        <button>Encriptar</button>
-        <button>Desencriptar</button>
+        <p id="texto"> &#9888; solo letras minusculas y sin acentos</p>
+        <button class="boton-encriptar">Encriptar</button>
+        <button class="boton-desincrptar">Desencriptar</button>
     </footer>
 </body>
 </html>
