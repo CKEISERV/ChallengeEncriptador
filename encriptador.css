@@ -28,13 +28,20 @@ h2{
 
 .alura{
 
-    height: 20px;
-    border: 5px;
+   width: 4%;
+   float: left;
+   position: relative;
+   left: 300px;
+   top: 10px;
+
 }
 
 .cesar{
-    height: 50px;
-    border: 5px;  
+   width: 10%;
+   float: right; 
+   position: relative;
+   top: -18px;
+   right: 330px;
 }
 
 header{
