@@ -5,10 +5,10 @@ body{
 
 h1{
     text-align: center;
-    color: #0A3871;
+    color: #0C0923;
     font-weight: normal;
     font-size: 40px;
-    font-family: arial;
+    font-family: impact;
     text-transform: uppercase;
     margin: 0px;
 }
@@ -16,11 +16,11 @@ h1{
 h2{
 
     text-align: center;
-    color: #0A3871;
+    color: #0C0923;
     font-weight: normal;
     font-size: 20px;
-    font-family: arial;
-    font-style: italic;
+    font-family: verdana;
+    font-style: impact;
     font-weight: bold;
     text-transform: uppercase;
     margin: 0.33px;
@@ -28,11 +28,10 @@ h2{
 
 .alura{
 
-   width: 4%;
+   width: 10%;
    float: left;
    position: relative;
    left: 300px;
-   top: 10px;
 
 }
 
@@ -40,8 +39,8 @@ h2{
    width: 10%;
    float: right; 
    position: relative;
-   top: -18px;
-   right: 330px;
+   right: 280px;
+   top: 10px;
 }
 
 header{
@@ -50,21 +49,43 @@ header{
 }
 
 .section-encriptar{
-    position: absolute;
-    width: 400px;
-    margin-left: 50px;
+    position: relative;
+    width: 940px;
+    margin-left: 10px;
+    margin-right: 950px;
+    text-align: center;
+}
+
+
+.texto-encriptado{
+    border-color: #0C0923;
+    border-width: 3px;
+}
+
+label{
+
+    color: #0C0923;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+.botones{
+
+    position: relative;
+    margin-top: 30%;
 }
 
 .section-desencriptar{
     
-    margin-left: 470px;
-    margin-right: 20px;
-}   
-label{
+    position: relative;
+    width: 940px;
+    margin-left: 1100px;
+    margin-right: 10px;
+    text-align: left;
+}  
 
-    color: #0A3871;
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
-    text-align: center;
-}
+
+
+
