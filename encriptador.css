@@ -50,7 +50,6 @@ header{
 
 .section-encriptar{
     position: relative;
-    width: 940px;
     margin-left: 10px;
     margin-right: 950px;
     text-align: center;
@@ -74,16 +73,28 @@ label{
 .botones{
 
     position: relative;
-    margin-top: 30%;
+    margin-top: 40%;
 }
+
+.boton-encriptar,.boton-desencriptar{
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    margin: 10px;
+    background-color: #0C0923;
+    border: 2px solid darkblue;
+    color: white;
+
+}
+
+
 
 .section-desencriptar{
     
     position: relative;
-    width: 940px;
-    margin-left: 1100px;
+    margin-left: 1200px;
     margin-right: 10px;
-    text-align: left;
+    text-align: center;
 }  
 
 
