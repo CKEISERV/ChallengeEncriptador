@@ -3,10 +3,6 @@ body{
     background-color: #E5E5E5;;
 }
 
-header{
-    display: inline;
-}
-
 h1{
     text-align: center;
     color: #0A3871;
@@ -39,4 +35,29 @@ h2{
 .cesar{
     height: 50px;
     border: 5px;  
+}
+
+header{
+    padding: 0  0 50px;
+
+}
+
+.section-encriptar{
+    position: absolute;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.section-desencriptar{
+    
+    margin-left: 470px;
+    margin-right: 20px;
+}   
+label{
+
+    color: #0A3871;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    text-align: center;
 }

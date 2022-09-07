@@ -15,22 +15,35 @@
      
     </header>
     <main>
-        <div>
-            <label for="campo-escritura">Codigo secreto</label>
-            <input class="ingresar-texto" type="text" id="campo-escritura" required placeholder="Ingrese texto aquí">
-        </div>
+        <section class="section-encriptar">
+            <div class="encriptar">
+                <label for="campo-escritura">Codigo secreto</label>
+                <textarea cols="50" rows="2" id="campo-escritura" required placeholder="Ingrese texto aquí"></textarea>
+            </div>
 
-        <div>
-            <input class="mostrar-texto" type="text" placeholder="Ningun mensaje fue encontrado">
-            <button class="copiar">copiar</button>
-        
-        </div>
+            <div>
+                <p> &#9888; solo letras minusculas y sin acentos</p>
+            </div>
+
+            <div>       
+            <button class="boton-encriptar">Encriptar</button>
+            <button class="boton-desincrptar">Desencriptar</button>
+            </div>
+         </section>
+
+         <section class="section-desencriptar">
+            <div>
+                <input class="mostrar-texto" type="text" placeholder="Ningun mensaje fue encontrado">
+            </div>
+
+            <div>
+                    <button class="copiar">copiar</button>
+            </div>
+
+         </section>
+
+
     </main>
 
-    <footer>
-        <p id="texto"> &#9888; solo letras minusculas y sin acentos</p>
-        <button class="boton-encriptar">Encriptar</button>
-        <button class="boton-desincrptar">Desencriptar</button>
-    </footer>
 </body>
 </html>
