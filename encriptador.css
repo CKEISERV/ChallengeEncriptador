@@ -70,6 +70,15 @@ main{
     text-align: center;
 }
 
+.texto-desencriptado{
+
+    background-image: url(/Imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
 
 p{
 
