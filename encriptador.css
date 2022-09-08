@@ -48,17 +48,33 @@ header{
 
 }
 
-.section-encriptar{
+main{
+
+    width: 1000px;
     position: relative;
-    margin-left: 10px;
-    margin-right: 950px;
+    margin: 0 auto;
+}   
+
+.section-desencriptar{
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+.texto-encriptado, .texto-desencriptado{
+    border-color: #0C0923;
+    border-width: 3px;
+    border-radius: 10px;
     text-align: center;
 }
 
 
-.texto-encriptado{
-    border-color: #0C0923;
-    border-width: 3px;
+p{
+
+    margin-left: 80px;
+
 }
 
 label{
@@ -66,36 +82,49 @@ label{
     color: #0C0923;
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
-
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    
 }
 
-.botones{
+.encriptado{
 
-    position: relative;
-    margin-top: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0.3;
+ 
 }
 
-.boton-encriptar,.boton-desencriptar{
+.boton-encriptar,.boton-desencriptar, .copiar{
+   
     height: 50px;
-    width: 200px;
+    width: 150px;
     font-size: 24px;
     margin: 10px;
     background-color: #0C0923;
     border: 2px solid darkblue;
     color: white;
+    border-radius: 10px
+
+}
+
+.boton-encriptar{
+
+    margin-left: 35px;
+}
+
+.copiar{
+
+    margin-left: 125px;
 
 }
 
 
 
-.section-desencriptar{
-    
-    position: relative;
-    margin-left: 1200px;
-    margin-right: 10px;
-    text-align: center;
-}  
 
 
 

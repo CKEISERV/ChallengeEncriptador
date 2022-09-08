@@ -16,35 +16,37 @@
        
      
     </header>
-    <main>
-        <section class="section-encriptar">
-            <div class="encriptar">
-                <textarea class="texto-encriptado" cols="50" rows="2" id="campo-escritura" required placeholder="Ingrese texto aquí"></textarea>
-                <label for="campo-escritura">Codigo secreto aquí 	
-                    &#9757;</label>
-            </div>
+        <main>
+            <section class="section-encriptar">
 
-            <div class="botones">
-                <p> &#9888; solo letras minusculas y sin acentos</p>
-                 
-            <button class="boton-encriptar">Encriptar</button>
-            <button class="boton-desencriptar">Desencriptar</button>
-            </div>
-         </section>
+                <div>
+                    <textarea class="texto-encriptado" cols="50" rows="2" id="campo-escritura" placeholder="Ingrese texto aquí"></textarea>
+                    <label for="campo-escritura">Codigo secreto aquí 	
+                        &#9757;</label>                      
+                </div>
 
-         <section class="section-desencriptar">
-            <div>
-                <input class="mostrar-texto" type="text" placeholder="Ningun mensaje fue encontrado">
-            </div>
+                <img src="./Imagenes/encriptado.jpg" alt="imagen-encriptado" class="encriptado">    
+                <div>
+                    <p> &#9888; solo letras minusculas y sin acentos</p>
+                    <button class="boton-encriptar">Encriptar</button>
+                    <button class="boton-desencriptar">Desencriptar</button>
+                </div>
 
-            <div>
+            </section>
+            
+            <section class="section-desencriptar">
+
+                <div class="botones-encriptar">
+                    <textarea class="texto-desencriptado" cols="50" rows="35" placeholder="Ningun mensaje fue encontrado"></textarea>
+                </div>
+
+                <div class="boton-copiar">
                     <button class="copiar">copiar</button>
-            </div>
+                </div>
+            </section>
+        </main>
 
-         </section>
-
-
-    </main>
+ 
 
 </body>
 </html>
