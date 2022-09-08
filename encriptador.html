@@ -1,52 +1,49 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Encriptador</title>
     <link rel="stylesheet" href="encriptador.css">
     
 </head>
-<body>
-    
+
+<body> 
     <header>
         <img src="./Imagenes/a.png" alt="Logo de Alura" class="alura">
         <img src="./Imagenes/cv.png" alt="Iniciales" class="cesar">
         <h1>  · Sprint 01-Encriptador-grupo 3 ·</h1>
-        <h2>Cesar Villamizar</h2>
-       
-     
+        <h2>Cesar Villamizar</h2>     
     </header>
-        <main>
-            <section class="section-encriptar">
 
-                <div>
-                    <textarea class="texto-encriptado" cols="50" rows="2" id="campo-escritura" placeholder="Ingrese texto aquí"></textarea>
-                    <label for="campo-escritura">Codigo secreto aquí 	
-                        &#9757;</label>                      
-                </div>
+    <main>
+        <section class="section-encriptar">
+            <div>
+                <textarea class="texto-encriptado" cols="50" rows="2" id="campo-escritura" placeholder="Ingrese texto aquí"></textarea>
+                <label for="campo-escritura">Codigo secreto aquí &#9757;</label>                      
+            </div>
 
-                <img src="./Imagenes/encriptado.jpg" alt="imagen-encriptado" class="encriptado">    
-                <div>
-                    <p> &#9888; solo letras minusculas y sin acentos</p>
-                    <button class="boton-encriptar">Encriptar</button>
-                    <button class="boton-desencriptar">Desencriptar</button>
-                </div>
+            <img src="./Imagenes/encriptado.jpg" alt="imagen-encriptado" class="encriptado">   
 
-            </section>
+            <div>
+                <p> &#9888; solo letras minusculas y sin acentos</p>
+                <button id="boton-encriptar">Encriptar</button>
+                <button id="boton-desencriptar">Desencriptar</button>
+            </div>
+        </section>
             
-            <section class="section-desencriptar">
+         <section class="section-desencriptar">
+            <div>
+                <textarea class="texto-desencriptado" cols="50" rows="35" placeholder="Ningun mensaje fue encontrado"></textarea>
+            </div>
 
-                <div>
-                    <textarea class="texto-desencriptado" cols="50" rows="35" placeholder="Ningun mensaje fue encontrado"></textarea>
-                </div>
-
-                <div class="boton-copiar">
-                    <button class="copiar">copiar</button>
-                </div>
-            </section>
-        </main>
-
- 
-
+            <div class="boton-copiar">
+                <button id="copiar">copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="./encriptador.js"></script>  
 </body>
+
 </html>

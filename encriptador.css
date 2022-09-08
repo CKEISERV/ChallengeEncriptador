@@ -108,7 +108,7 @@ label{
  
 }
 
-.boton-encriptar,.boton-desencriptar, .copiar{
+#boton-encriptar, #boton-desencriptar, #copiar{
    
     height: 50px;
     width: 150px;
